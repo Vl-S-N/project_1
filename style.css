@@ -5,6 +5,7 @@
 font-display: block;
   src: local("Inter Bold Italic"), local("Inter-BoldItalic"), url("Inter-BoldItalic.woff2") format("woff2"),
     url("Inter-BoldItalic.woff") format("woff"), url("Inter-BoldItalic.ttf") format("truetype");}
+    
 body {
   font-family: "Inter",sans-serif;
   color: #333333;
