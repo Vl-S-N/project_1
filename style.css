@@ -9,7 +9,7 @@ font-display: block;
 body {
   font-family: "Inter",sans-serif;
   color: #333333;
-  max-width: 1920px;
+
   height: auto;
  
 }
@@ -20,7 +20,7 @@ body {
   justify-content: space-between;
   max-width: 1600px;
   margin: 0 auto;
-  
+  padding-top: 24px;
 }
 .main-nav {
   display: flex;
@@ -57,6 +57,7 @@ main{
   margin: 0 auto;
   padding-top: 22px;
   justify-content: space-between;
+  
     
 }
 .site-navigation {
@@ -73,6 +74,8 @@ main{
   text-decoration: none;
   
 }
+.registrationContainer{display: flex;
+gap: 12px;}
 .site-navigation-item a
 {text-decoration: none;
   color: var(--grays-olive, #0C0C3D);
@@ -161,6 +164,7 @@ gap: 8px;
 border-radius: 8px;
 background: var(--colors-secondary, #DCF6F4);
 }
+.registration-form a{text-decoration: none;}
 .registration-txt{
   border: none; 
   font-family: "Inter",sans-serif;
@@ -216,6 +220,7 @@ background: var(--colors-secondary, #DCF6F4);
   border-radius: 8px;
   background: var(--colors-secondary, #DCF6F4);
 }
+.number-form a{text-decoration: none;}
 .number-form:hover {
   color: var(--Colors-Primary-Dark, #04665E);
   background: var(--Colors-Secondary, #DCF6F4);}
@@ -403,12 +408,14 @@ border-radius: 16px;
 background: var(--grays-pale-3, #F6F8FA);
   }
 .areaActivityItem a{
+  color: var(--Grays-Olive, #0C0C3D);
 font-family: "Inter", sans-serif;
 font-size: 24px;
 font-style: normal;
 font-weight: 500;
 line-height: 32px;
 flex-shrink: 0;
+text-decoration: none;
   }
 .activeItem-bth{
 display: flex;
@@ -536,7 +543,8 @@ padding-top: 80px;}
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
-    line-height: 28px;}
+    line-height: 28px;
+    text-decoration: none;}
     .briefingImgOneTxt:hover{color: var(--Colors-Primary-Hover, #32BCB1);}
     .briefingImgOneTxt:active{color: var(--Colors-Primary-Dark, #04665E);}
     .briefingImgTwoTxt{
@@ -620,6 +628,7 @@ font-size: 24px;
 font-style: normal;
 font-weight: 500;
 line-height: 32px;
+text-decoration: none;
     }
     .resourcesBth{
       display: flex;
@@ -968,14 +977,20 @@ font-family: "Inter",sans-serif;
   padding-bottom: 26px;
 }
 footer{background: var(--Grays-Background, #F8FBFE);
-max-width: 1600px;
+max-width: 1920px;
 width: 100%;
 margin: 0 auto;
-padding-top: 80px;
-display: grid;
-grid-template-columns:  repeat(4, 1fr);
-
 }
+.contactContainer{background: var(--Grays-Background, #F8FBFE);
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns:  repeat(4, 1fr);
+  padding-bottom: 88px;
+   }
+
 .contact{    list-style: none;
   display: flex;
   flex-direction: column;
